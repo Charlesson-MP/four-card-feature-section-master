@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (min-width: 48rem) and (max-width: 63.9375rem) {
   /* Cards settings */
   .cards {
     display: grid;
