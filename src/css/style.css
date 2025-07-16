@@ -1,0 +1,126 @@
+@charset "UTF-8";
+
+/* Import font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Project variables */
+:root {
+    /* Colors */
+    /* Primary */
+    --red: hsl(0, 78%, 62%);
+    --cyan: hsl(180, 62%, 55%);
+    --orange: hsl(34, 97%, 64%);
+    --blue: hsl(212, 86%, 64%);
+    /* Neutral */
+    --grey500: hsl(234, 12%, 34%);
+    --grey400: hsl(212, 6%, 44%);
+    --white: hsl(0, 0%, 100%);
+
+    /* Fonts */
+    --poppins200: normal 200 1rem 'Poppins', sans-serif;
+    --poppins400: normal 400 1rem 'Poppins', sans-serif;
+    --poppins600: normal 600 1rem 'Poppins', sans-serif;
+
+    /* Box shadow */
+    --box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+
+}
+
+/* Reset settings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body settings */
+body {
+    padding: 3rem 1.5rem;
+    background-color: rgb(250, 250, 250);
+}
+
+/* Main settings */
+main {
+    width: 100%;
+}
+
+/* Header settings */
+header {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+header h1 {
+    margin-bottom: 1rem;
+}
+
+header h1 .thin-part {
+    display: block;
+    font: var(--poppins200);
+    font-size: 1.65rem;
+    color: var(--grey400);
+}
+
+header h1 .bold-part {
+    display: block;
+    font: var(--poppins600);
+    color: var(--grey500);
+    font-size: 1.65rem;
+}
+
+header p {
+    font: var(--poppins400);
+    color: var(--grey500);
+}
+
+/* Cads settings */
+.cards {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 2rem;
+    align-items: center;
+}
+
+.cards .card {
+    width: 20.4375rem;
+    background-color: #fff;
+    padding: 2rem;
+    box-shadow: var(--box-shadow);
+    border-radius: .5rem;
+    display: flex;
+    flex-flow: column nowrap;
+    gap: .8rem;
+}
+
+.cards .card h2 {
+    font: var(--poppins600);
+    font-size: 1.3rem;
+    color: var(--grey500);
+}
+
+.cards .card p {
+    font: var(--poppins400);
+    font-size: .9rem;
+    color: var(--grey500);
+}
+
+.cards .card img {
+    width: 4rem;
+    align-self: flex-end;
+}
+
+.cards .supervisor-card {
+    border-top: 5px solid var(--cyan);
+}
+
+.cards .team-builder-card {
+    border-top: 5px solid var(--red);
+}
+
+.cards .karma-card {
+    border-top: 5px solid var(--orange);
+}
+
+.cards .calculator-card {
+    border-top: 5px solid var(--blue);
+}
