@@ -127,7 +127,7 @@ These improvements are documented as potential future enhancements and are not r
 
 This project was developed as part of a challenge from **Frontend Mentor**, a platform that provides real-world frontend projects to improve web development skills.
 
-[View the original challenge](https://www.frontendmentor.io/challenges/four-card-feature-section-weK1eFYKQ)
+[View the original challenge](https://www.frontendmentor.io/challenges/four-card-feature-section-weK1eFYK)
 
 ---
 
