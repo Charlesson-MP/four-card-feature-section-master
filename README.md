@@ -12,7 +12,7 @@ The layout adapts to different screen sizes, providing an optimized experience a
 
 ## 🎨 Preview
 
-![Four Card Feature Section Preview](images/preview.png)
+![Four Card Feature Section Preview](./src/images/preview.png)
 
 ---
 
