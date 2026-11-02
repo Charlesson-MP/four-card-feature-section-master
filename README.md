@@ -1,64 +1,144 @@
-# Four Card Feature Section
+# 🖥️ Four Card Feature Section
 
-Este projeto é uma implementação do desafio **"Four Card Feature Section"** do Frontend Mentor, criado para praticar responsividade, layout com Flexbox e Grid, além de boas práticas de HTML e CSS.
+## 📖 About the Project
 
----
+This project is a responsive **Four Card Feature Section** developed as part of a challenge from [Frontend Mentor](https://www.frontendmentor.io/).
 
-## 📄 Descrição do Projeto
+The goal was to reproduce the provided design as accurately as possible while practicing **HTML5**, **CSS3**, responsive layouts, and modern CSS techniques such as **Flexbox**, **CSS Grid**, and **CSS custom properties**.
 
-A página apresenta uma seção com quatro cartões destacando diferentes recursos de uma plataforma fictícia alimentada por inteligência artificial.  
-
-O objetivo é criar um layout elegante e responsivo, que se adapta a diferentes tamanhos de tela, usando **Flexbox** para dispositivos móveis e **CSS Grid** para telas maiores.
+The layout adapts to different screen sizes, providing an optimized experience across mobile, tablet, and desktop devices.
 
 ---
 
-## 🚀 Tecnologias e recursos utilizados
+## 🎨 Preview
 
-- ✅ **HTML5 semântico**
-- ✅ **CSS3** com:
-  - Variáveis CSS (`:root`)
-  - Flexbox para o layout mobile
-  - CSS Grid para o layout desktop
-  - Media queries para responsividade
-- ✅ Google Fonts ([Poppins](https://fonts.google.com/specimen/Poppins))
-- ✅ Imagens em formato SVG
-- ✅ Favicons compatíveis com navegadores modernos
+![Four Card Feature Section Preview](images/preview.png)
 
 ---
 
-## 📁 Estrutura de arquivos
+## 🚀 Technologies
 
-four-card-feature-section-master/ <br>
-├── index.html <br>
-├── LICENSE <br>
-├── README.md <br>
-├── src/ <br>
-│ ├── css/ <br>
-│ │ ├── mobile.css <br>
-│ │ ├── tablet.css <br>
-│ │ └── desktop.css <br>
-│ └── images/ <br>
-│ ├── favicon-32x32.png <br>
-│ ├── icon-supervisor.svg <br>
-│ ├── icon-team-builder.svg <br>
-│ ├── icon-karma.svg <br>
-│ └── icon-calculator.svg
-
+- HTML5
+- CSS3
+- CSS Grid
+- Flexbox
+- CSS Custom Properties
+- Media Queries
+- Responsive Web Design
+- Mobile-First Approach
 
 ---
 
-## 🌐 Acessar o projeto
+## 📱 Responsive Design
 
-- 📂 [Repositório no GitHub](https://github.com/Charlesson-MP/four-card-feature-section-master)
+The project was designed to provide a consistent experience across different viewport sizes.
 
-- 🔗 [Acesse a página do projeto](https://charlesson-mp.github.io/four-card-feature-section-master/)  
+The layout includes specific adjustments for:
+
+- 📱 Mobile devices
+- 📲 Tablet devices
+- 🖥️ Desktop screens
+
+Different CSS files are used to organize the styles according to the target screen size.
 
 ---
 
-## 🛠️ Como executar o projeto localmente
+## 📂 Project Structure
 
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/Charlesson-MP/four-card-feature-section-master.git
+```text
+four-card-feature-section-master/
+│
+├── LICENSE
+├── README.md
+├── index.html
+│
+└── src/
+    ├── css/
+    │   ├── desktop.css
+    │   ├── mobile.css
+    │   └── tablet.css
+    │
+    └── images/
+        ├── favicon-32x32.png
+        ├── icon-calculator.svg
+        ├── icon-karma.svg
+        ├── icon-supervisor.svg
+        └── icon-team-builder.svg
+```
 
-2. Abra o arquivo index.html
+---
+
+## 🛠️ How to Run
+
+1. Clone this repository:
+
+```bash
+git clone https://github.com/Charlesson-MP/four-card-feature-section-master.git
+```
+
+2. Navigate to the project directory:
+
+```bash
+cd four-card-feature-section-master
+```
+
+3. Open `index.html` in your browser.
+
+No additional dependencies or installation steps are required.
+
+---
+
+## 🎯 Learning Goals
+
+This project was created to practice and reinforce:
+
+- Building semantic HTML structures.
+- Creating responsive layouts with CSS Grid and Flexbox.
+- Working with CSS custom properties.
+- Applying a mobile-first approach.
+- Using media queries to adapt layouts to different screen sizes.
+- Reproducing a design from a provided reference.
+- Improving attention to spacing, typography, alignment, and visual hierarchy.
+
+---
+
+## 🔮 Future Improvements
+
+Although the project meets its original objective, some improvements could be explored in the future:
+
+- Review and simplify the CSS file organization.
+- Improve class naming consistency.
+- Further refine the layout at intermediate viewport sizes.
+- Review accessibility practices and semantic structure.
+- Optimize the organization and loading of visual assets.
+- Explore a more scalable CSS architecture.
+
+These improvements are documented as potential future enhancements and are not required for the current implementation.
+
+---
+
+## 🌐 Live Demo
+
+[View the live project](https://charlesson-mp.github.io/four-card-feature-section-master/)
+
+---
+
+## 📚 Challenge
+
+This project was developed as part of a challenge from **Frontend Mentor**, a platform that provides real-world frontend projects to improve web development skills.
+
+[View the original challenge](https://www.frontendmentor.io/challenges/four-card-feature-section-weK1eFYKQ)
+
+---
+
+## 👨‍💻 Author
+
+**Charlesson Mendes**
+
+- GitHub: [@Charlesson-MP](https://github.com/Charlesson-MP)
+
+---
+
+## 📄 License
+
+This project is available under the terms of the license included in this repository.
